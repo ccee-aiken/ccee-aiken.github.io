@@ -1127,11 +1127,14 @@
 		font-style: normal;
 	}
 
-	h1, h2, h4, h5, h6 {
+	h1, h2, h5, h6 {
 		color: #252122;
 		font-weight: 700;
 	}
-    
+    h4 {
+    color: white;
+    font-weight: 700;
+}
     h3 {
         color: #ffffff;
         font-weight: 700;
@@ -1418,6 +1421,7 @@
 
 		ul.default li {
 			padding-left: 0;
+            
 		}
 
 	ul.contact li {
@@ -1946,8 +1950,10 @@
 
 					#nav > ul > li > ul {
 						display: none;
+                        white-space: normal;
+                        max-width: 17em;
+            
 					}
-
 					#nav > ul > li > a {
 						border-radius: 1px;
 						color: #5d5d5d;
@@ -1968,8 +1974,10 @@
 					#nav > ul > li.current > a {
 						color: #fff !important;
 					}
+                    
 
 			.dropotron {
+               
 				border-radius: 0px;
 				background-color: white;
 				padding: 0.5em 0.5em 0.5em 0.5em;
@@ -1989,6 +1997,8 @@
                     background-color: white;
 					text-decoration: none;
                     font-weight: normal;
+                    white-space: pre-line;
+                    max-width: 17em;
 					-moz-transition: color .25s ease-in-out;
 					-webkit-transition: color .25s ease-in-out;
 					-ms-transition: color .25s ease-in-out;
@@ -2369,7 +2379,7 @@
 						font-weight: normal;
 						-webkit-font-smoothing: antialiased;
 						-moz-osx-font-smoothing: grayscale;
-						content: '\f0c9';
+						content: url(images/boton.png);
 						display: block;
 						position: absolute;
 						left: 10px;
@@ -2418,11 +2428,14 @@
 					display: block;
 					color: #888;
 					text-decoration: none;
-					height: 44px;
-					line-height: 44px;
+					height: auto;
+					line-height: 30px;
+                    text-align: left;
+                    text-indent: -1em;
+                    margin-left: 1em;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					padding: 0 1em 0 1em;
-					font-style: italic;
+					font-style: normal;
 				}
 
 					#navPanel .link:first-child {
@@ -2540,8 +2553,8 @@
 		/* Banner */
 
 			#banner {
-				margin: 2em 0 4em 0 !important;
-				padding: 6em 0;
+				margin: 2em 0 0em 0 !important;
+				padding: 0em 0;
 			}
 
 				#banner header {
