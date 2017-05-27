@@ -866,7 +866,7 @@
 		}
 
 		.row {
-			margin: -20px 0 -1px -20px;
+			margin: auto;
 		}
 
 		.row.uniform > * {
@@ -1167,6 +1167,7 @@
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
+
 
 /* Form */
 
