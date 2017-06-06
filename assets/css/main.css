@@ -1127,10 +1127,18 @@
 		font-style: normal;
 	}
 
-	h1, h2, h5, h6 {
+	h2, h5, h6 {
 		color: #252122;
 		font-weight: 700;
 	}
+h1 {
+    text-align: center;
+    color: #C80000;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 60px;
+    
+}
     h4 {
     color: white;
     font-weight: 700;
