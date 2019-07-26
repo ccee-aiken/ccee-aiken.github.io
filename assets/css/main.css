@@ -18,7 +18,7 @@
         font-family: 'Arial', sans-serif;
 		font: 'Arial', sans-serif;
 		vertical-align: baseline;
-        background-color: #615B5B
+        background-color: #3D3A3A
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1153,7 +1153,7 @@ h1 {
 	}
 
 	a {
-		color: #d52349;
+		color: #8A2F2F;
 		text-decoration: none;
 	}
 
@@ -1707,7 +1707,7 @@ h1 {
 
 	#header-wrapper {
 		position: relative;
-		background: #615B5B;
+		background: #3D3A3A;
 		border-bottom: solid 1px #ccc;
 	}
 
@@ -1965,7 +1965,7 @@ h1 {
 					}
 					#nav > ul > li > a {
 						border-radius: 1px;
-						color: #5d5d5d;
+						color: #FFFFFF;
                         background-color: #040000;
 						text-decoration: none;
 						padding: 0.6em 1.2em 0.6em 1.2em;
@@ -2251,7 +2251,7 @@ h1 {
 			}
 
 			h2, h3, h4, h5, h6 {
-				font-size: 1.25em;
+				font-size: 1.05em;
 			}
 
 		/* Section/Article */
